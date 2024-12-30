@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="static/images/{{ user.img }}.jpg" alt="Imagem de Login">
+        </div>
+        <div class="user-data">
+            <h2>Bem-vindo, {{ user.nome }}</h2>
+            <p><strong>Email:</strong> {{ email }}</p>
+            <p><strong>Telefone:</strong> {{ user.telefone }}</p>
+            <p><strong>Endereço:</strong> {{ user.endereço }}</p>
+            <button class="logout-button">Sair</button>
+        </div>
+    </div>
+</body>
+
+</html>
