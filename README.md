@@ -1,4 +1,4 @@
-# Sistema-de-cadastro-e-login
+# Sistema-Login-Flask-Peewee
 Este é um sistema simples de cadastro e login, desenvolvido com o Framework Flask e Peewee como banco de dados, cujo o objetivo era colocar em pratica meus conhecimentos e melhorar.
 
 ## Funcionalidades
